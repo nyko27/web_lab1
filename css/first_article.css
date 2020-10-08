@@ -1,0 +1,84 @@
+.first-section {
+    display: flex;
+    margin-top: 70px;
+}
+
+.about-us-article {
+    margin-left: 13%;
+    width: 30%;
+}
+
+.article-title {
+    margin-top: 11%;
+    width: 241px;
+    height: 82px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.article-text-conent {
+    margin-top: 40px;
+    font-weight: 300;
+    opacity: 50%;
+    padding: 0;
+}
+
+hr.title-underscore {
+    width: 56px;
+    margin-top: 32px;
+    border-width: 1px;
+    padding: 0;
+    margin-left: 0;
+    border-color: black;
+    background-color: black;
+}
+
+.download-button {
+    width: 200px;
+    height: 13px;
+    margin-top: 64px;
+    padding: 21px 70px 22px 44px;
+}
+
+.button {
+    color: rgba(69, 143, 246, 1);
+    text-decoration: none;
+}
+
+.article-text {
+    margin-top: 27px;
+    line-height: 27px;
+    word-spacing: 4px;
+}
+
+.download-button {
+    width: 190px;
+    padding: 0;
+    height: 49px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: cornflowerblue;
+    border-style: solid;
+}
+
+.app-image {
+    margin-top: 35px;
+    width: 57%;
+    margin-left: 20px;
+}
+
+.trafalgar-illustration {
+    position: relative;
+    right: 110px;
+    top: 0;
+}
+
+.background-image-content {
+    position: relative;
+    top: 65px;
+    left: 635px;
+}

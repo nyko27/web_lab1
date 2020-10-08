@@ -1,0 +1,62 @@
+.background {
+    margin-top: 144px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, #2a93c2 0%, #2db7b9 100%);
+    height: 200px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    margin-left: 227px;
+    padding-top: 90px;
+}
+
+.logo-bottom {
+    justify-content: space-between;
+    display: flex;
+    width: 165px;
+    height: 41px;
+}
+
+.logo-bottom-front {
+    font-weight: 500;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    width: 41px;
+    height: 41px;
+    padding: 9px;
+    background-color: white;
+    color: rgba(91, 155, 243, 1);
+    line-height: 44px;
+}
+
+.company-bottom-name {
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    line-height: 10px;
+}
+
+.footer-items {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 80px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.background-image-footer {
+    position: absolute;
+    top: 2650px;
+    left: -20px;
+}
