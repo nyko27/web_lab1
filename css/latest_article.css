@@ -1,10 +1,10 @@
     .latest-article-cover {
-        margin-left: 13%;
+        max-width: 95%;
+        margin: 0 auto;
         margin-top: 250px;
     }
     
     .latest-article-title {
-        margin-right: 200px;
         text-align: center;
         font-weight: 700;
         font-size: 30px;
@@ -12,24 +12,24 @@
     }
     
     .latest-title-underscore {
-        margin-top: 40px;
+        padding-top: 40px;
         width: 56px;
         border-width: 1px;
         padding: 0;
         border-color: black;
         background-color: black;
-        margin-left: 535px;
         margin-bottom: 72px;
     }
     
     .latest-article-items {
         display: flex;
-        width: 80%;
+        max-width: 80%;
+        margin: 0 auto;
         justify-content: space-between;
     }
     
     .latest-title-item {
-        margin-right: 30px;
+        margin-bottom: 120px;
     }
     
     .latest-title-image-content {
@@ -45,7 +45,6 @@
     }
     
     .image-describing {
-        margin-left: 35px;
         opacity: 50%;
         line-height: 30px;
         font-weight: 300px;
@@ -60,9 +59,8 @@
     }
     
     .latest-article-view-all {
-        margin-top: 115px;
+        margin: auto;
         width: 190px;
-        padding: 0;
         height: 49px;
         text-align: center;
         line-height: 50px;
@@ -72,7 +70,6 @@
         border-width: 2px;
         border-color: cornflowerblue;
         border-style: solid;
-        margin-left: 35%;
     }
     
     a.view-all-content {
