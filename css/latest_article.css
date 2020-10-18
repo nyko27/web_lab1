@@ -1,78 +1,118 @@
-    .latest-article-cover {
-        max-width: 95%;
-        margin: 0 auto;
-        margin-top: 250px;
-    }
-    
-    .latest-article-title {
-        text-align: center;
-        font-weight: 700;
-        font-size: 30px;
-        word-spacing: 8px;
-    }
-    
-    .latest-title-underscore {
-        padding-top: 40px;
-        width: 56px;
-        border-width: 1px;
-        padding: 0;
-        border-color: black;
-        background-color: black;
-        margin-bottom: 72px;
-    }
-    
-    .latest-article-items {
-        display: flex;
-        max-width: 80%;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
-    
-    .latest-title-item {
-        margin-bottom: 120px;
-    }
-    
-    .latest-title-image-content {
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .first-image-sign {
-        margin-left: 35px;
-        font-weight: 600;
-        width: 244px;
-        font-size: 20px;
-        line-height: 35px;
-    }
-    
-    .image-describing {
-        opacity: 50%;
-        line-height: 30px;
-        font-weight: 300px;
-        margin-bottom: 40px;
-    }
-    
-    .image-read-more {
-        color: rgba(64, 137, 237, 1);
-        margin-left: 35px;
-        text-decoration: none;
-        font-size: 20px;
-    }
-    
-    .latest-article-view-all {
-        margin: auto;
-        width: 190px;
-        height: 49px;
-        text-align: center;
-        line-height: 50px;
-        font-weight: 400;
-        font-size: 20px;
-        border-radius: 50px;
-        border-width: 2px;
-        border-color: cornflowerblue;
-        border-style: solid;
-    }
-    
-    a.view-all-content {
-        text-decoration: none;
-        color: cornflowerblue;
-    }
+        .latest-article-cover {
+            max-width: 95%;
+            margin: 0 auto;
+            margin-top: 250px;
+        }
+        
+        .latest-article-title {
+            text-align: center;
+            font-weight: 700;
+            font-size: 30px;
+            word-spacing: 8px;
+        }
+        
+        .latest-title-underscore {
+            padding-top: 40px;
+            width: 56px;
+            border-width: 1px;
+            padding: 0;
+            border-color: black;
+            background-color: black;
+            margin-bottom: 72px;
+        }
+        
+        .latest-article-items {
+            display: flex;
+            max-width: 80%;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        
+        .latest-title-item {
+            margin-bottom: 120px;
+        }
+        
+        .latest-title-image-content {
+            border-radius: 20px 20px 0 0;
+        }
+        
+        .first-image-sign {
+            margin-left: 35px;
+            font-weight: 600;
+            width: 244px;
+            font-size: 20px;
+            line-height: 35px;
+        }
+        
+        .image-describing {
+            opacity: 50%;
+            line-height: 30px;
+            font-weight: 300px;
+            margin-bottom: 40px;
+        }
+        
+        .image-read-more {
+            color: rgba(64, 137, 237, 1);
+            margin-left: 35px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        .latest-article-view-all {
+            margin: auto;
+            width: 190px;
+            height: 49px;
+            text-align: center;
+            line-height: 50px;
+            font-weight: 400;
+            font-size: 20px;
+            border-radius: 50px;
+            border-width: 2px;
+            border-color: cornflowerblue;
+            border-style: solid;
+        }
+        
+        a.view-all-content {
+            text-decoration: none;
+            color: cornflowerblue;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .latest-article-items {
+                flex-direction: column;
+                z-index: -1;
+            }
+            .first-image-sign {
+                margin: 0 auto;
+            }
+            .image-wrapper {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .image-describing {
+                margin: 0 auto;
+            }
+            .image-describing-content {
+                z-index: -1;
+            }
+            .latest-article-view-all {
+                margin-top: 5vh;
+            }
+            .latest-article-view-all:hover {
+                animation: buttonGoesBzzz 0.1s ease-in infinite;
+            }
+            @keyframes buttonGoesBzzz {
+                0% {
+                    transform: rotateY(0);
+                }
+                33% {
+                    transform: rotateY(50deg);
+                }
+                66% {
+                    transform: rotateY(-50deg);
+                }
+                100% {
+                    transform: rotateY(0);
+                }
+            }
+        }
